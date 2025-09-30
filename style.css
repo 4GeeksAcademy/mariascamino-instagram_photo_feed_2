@@ -1,5 +1,8 @@
+body {
+    background-color: black;
+}
+
 .post {
-    border: 1px solid #ff0000;
     overflow: hidden;
     max-width: 500px;
     max-height: 800px;
@@ -8,18 +11,21 @@
 
 .post-header {
     padding: 12px 16px;
-    background-color: #f015c4;
-    border-bottom: 1px solid #09eafa;
     display: flex;
     gap: 12px;
+    background-color: white;
 }
 
 .post-img-2 {
-    width: 200px;
+    width: 500px;
+    aspect-ratio: 5/4;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .post-body {
     padding: 12px 16px;
+    background-color: white;
 }
 
 .post-icons {
@@ -29,13 +35,16 @@
 }
 
 .post-icons i {
-    font-size: 18px;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: #888;
 }
 
 .post-body p {
     margin: 0;
     line-height: 1.5;
+    background-color: ;
 }
 
 .post-header-1 {
@@ -44,4 +53,21 @@
 .post-header-3 {
     margin-left: auto;
     font-size: 30px;
+}
+
+.post-icons-left i {
+    margin-right: 8px;
+    font-size: 30px;
+    color:black
+}
+
+.post-icons-right i {
+    font-size: 30px;
+    color:black
+}
+
+.final-text {
+    color: black;
+    margin-top: 8px;
+    text-align: left;
 }
