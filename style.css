@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .post {
@@ -16,11 +17,21 @@ body {
     background-color: white;
 }
 
+.post-header-2 {
+    font-size: 14px;
+    margin-top: 2px;
+    color: black;
+}
+
 .post-img-2 {
     width: 500px;
     aspect-ratio: 5/4;
     object-fit: cover;
     overflow: hidden;
+}
+
+.post-img {
+  line-height: 0;
 }
 
 .post-body {
